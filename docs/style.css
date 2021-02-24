@@ -236,7 +236,6 @@ a:hover {
 
 .d-bloc .panel .a-btn:hover,
 .l-bloc .a-btn:hover,
-.l-bloc .navbar a:hover,
 .l-bloc .navbar-brand:hover,
 .l-bloc a:hover .icon-sm,
 .l-bloc a:hover .icon-md,
@@ -250,6 +249,10 @@ a:hover {
 .l-bloc h6 a:hover,
 .l-bloc p a:hover {
     color: rgba(0, 0, 0, 1);
+}
+
+.l-bloc .navbar a:hover{
+    color: #F3976C;
 }
 
 .l-bloc .navbar-toggle .icon-bar {
@@ -284,7 +287,7 @@ a:hover {
 }
 
 #bloc-2-services p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .navbar {
@@ -648,10 +651,20 @@ h6,
 p,
 label,
 .btn,
-a {
+ {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
+}
+
+a{
+    font-family: "helvetica";
+    font-weight: 400;
+    color: #F3976C; 
+}
+
+a:hover{
+    color: #e05718;
 }
 
 .container {
@@ -677,7 +690,7 @@ a {
 }
 
 p {
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -763,7 +776,7 @@ h4 {
 }
 
 .service-header {
-    font-size: 15px;
+    font-size: 1.5em;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -781,7 +794,7 @@ h4 {
 }
 
 .tc-white {
-    color: #364577!important;
+    color: #F3976C!important;
 }
 
 .btn-atomic-tangerine {
@@ -1045,4 +1058,17 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+footer{
+    font-size: 16px;
+}
+
+.header2{
+    font-size: 2em;
+    color: black;
+}
+
+aside{
+    font-size: 16px;
 }
