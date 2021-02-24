@@ -1064,6 +1064,10 @@ footer{
     font-size: 16px;
 }
 
+footer ul{
+    line-height: 2.5;
+}
+
 .header2{
     font-size: 2em;
     color: black;
