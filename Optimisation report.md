@@ -29,15 +29,15 @@ The full results of the initial audit can be downloaded [here](https://github.co
   * Justification from audit
 
 ### Accesibility Adjustments
-* Text color altered from  to  to increase contrast
+* Text color altered to increase contrast
   * A low text contrast ratio makes text harder to read
-* <lang> value of en altered from default
+* lang value of en altered from default
   * Screen readers need the language specified to read accurately
-* Aria-labels added to <a>
+* Aria-labels added to a
   * Links using icons need to have labels for assistive technology
-* <label for=""> syntax added to forms
+* label for="" syntax added to forms
   * Forms rquire labels to be read by assistive technology
-* Various <div> elements altered to <main>, <header>, <section>, <article>, <aside> and <footer>
+* Various div elements altered to main, header, section, article, aside and footer
   * Use of semantic markup makes pages easier to read for assistive tech
 * Font size of smaller text increased to minimum of 16px (12pt)
   * Body text needs to be large enough to be perceivable to users
@@ -47,15 +47,15 @@ The full results of the initial audit can be downloaded [here](https://github.co
 ### Overlapping Adjustments
 * Alternative text for images - removed list of keywords and created description of the image using keywords where possible
   * Images require adequate descriptive alternative text, use of keywords also improves SEO
-* Altered heading structure to remove excess <h1> and ensure logical descending order over the page
+* Altered heading structure to remove excess h1 and ensure logical descending order over the page
   * Appropriate heading structure improves crawlability and accesible technology 
 
 ### SEO Adjustments
-* Improved the description <meta> to accurately describe the page and its function
+* Improved the description meta to accurately describe the page and its function
   * The meta description tag is shown on the search page and shoud be a page summary
-* Removed the keywords <meta> and span containing keywords in tiny font
+* Removed the keywords meta and span containing keywords in tiny font
   * Keywords tag is outdated, and lists of keywords in tiny font risks penalisation from google
-* Altered the images and quotes put in as titles to <h2> or <aside> elements to improve responsive performance
+* Altered the images and quotes put in as titles to h2 or aside elements to improve responsive performance
   * Google operates on a mobile first system, so how the site runs in mobile sizing is crucial
 * Change contact link in bloc-3 to a button and increased spacing in footer to ensure tap target size
   * Tap targets need to be of an appropriate size 
